@@ -1,3 +1,3 @@
-a=input()
-b=input()
-print(a+b)
+a=input('Enter a number')
+b=input('Enter second number')
+print('Sum=',a+b)
