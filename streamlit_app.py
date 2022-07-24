@@ -8,7 +8,6 @@ def main():
     if submit: 
         if a and b:
             with st.spinner('Calculating...'):
-                time.sleep(2)
                 addition = a+b
                 st.info(f"Your **sum** of {a} and {b} is {addition}")
         else:
