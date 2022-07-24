@@ -1,3 +1,4 @@
+import streamlit as st
 def main():
     st.title('Adding two numbers')
     st.warning('Only Enter Numeric Values in the Following Fields')
