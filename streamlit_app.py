@@ -8,8 +8,8 @@ def main():
     if submit: 
         if a and b:
             with st.spinner('Calculating...'):
-                addition = a+b
-                st.info(f"Your **sum** of {a} and {b} is {addition}")
+                addition = int(a)+int(b)
+                st.info(f"Your **sum** of {int(a)} and {int(b)} is {addition}")
         else:
             st.error('Please Enter All the Details')
 
