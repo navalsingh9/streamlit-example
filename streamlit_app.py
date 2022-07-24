@@ -13,5 +13,3 @@ def main():
                 st.info(f"Your **sum** of {a} and {b} is {addition}")
         else:
             st.error('Please Enter All the Details')
-@st.cache
-main()
