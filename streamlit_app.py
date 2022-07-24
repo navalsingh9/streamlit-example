@@ -1,5 +1,4 @@
-
-def main():
+main():
     st.title('Adding two numbers')
     st.warning('Only Enter Numeric Values in the Following Fields')
     a = st.text_input("Enter first number")
