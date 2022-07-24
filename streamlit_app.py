@@ -14,5 +14,4 @@ def main():
         else:
             st.error('Please Enter All the Details')
 @st.cache
-if __name__ == '__main__':
-    main()
+main()
